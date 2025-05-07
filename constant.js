@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SEED_CONFIG = void 0;
+exports.SEED_CONFIG = "global-config";
+// export const SEED_BONDING_CURVE = "bonding-curve";
+// export const SEED_GLOBAL = "global";
+// export const TEST_NAME = "Apple Token";
+// export const TEST_SYMBOL = "APP";
+// export const TEST_URI = "https://bafybeia6nzzdiyahujqkvqq3gh26ujpv3wbidbn2lpoobmyerkbkrksmom.ipfs.dweb.link?filename=token1.json";
+// export const TEST_VIRTUAL_RESERVES = 1_000_000_000;
+// export const TEST_TOKEN_SUPPLY = 1_000_000_000_000_000;
+// export const TEST_DECIMALS = 6;
+// export const TEST_INIT_BONDING_CURVE = 95;
