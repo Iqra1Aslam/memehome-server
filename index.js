@@ -49,9 +49,15 @@ app.use(express.urlencoded({ extended: false }));
 app.use("/coin", index_1.default);
 app.use("/user", user_1.default);
 // Test route
+// app.get("/", (req, res) => {
+//     res.send("Hello from backend with Ably!");
+// });
 app.get("/", (req, res) => {
+    const origin = req.headers.origin;
+    console.log("Request received from origin:", origin);
     res.send("Hello from backend with Ably!");
-});
+  });
+  
 // Start server
 const port = process.env.PORT || 8000;
 app.listen(port, () => {
