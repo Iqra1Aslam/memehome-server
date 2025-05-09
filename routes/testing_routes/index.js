@@ -16,7 +16,7 @@ const router = express_1.default.Router();
 const allowedOrigins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://www.memehome.io",
+    "https://memehome-io-ten.vercel.app",
     "http://localhost:4173"
 ];
 router.use((0, cors_1.default)({
