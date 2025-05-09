@@ -24,7 +24,7 @@ mongoose
 // Middlewares
 const allowedOrigins = [
     "http://localhost:5173",
-    "https://www.memehome.io",
+    "https://memehome-io-ten.vercel.app",
     "http://localhost:4173"
 
 ];
