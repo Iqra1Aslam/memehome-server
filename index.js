@@ -25,6 +25,8 @@ mongoose
 const allowedOrigins = [
     "http://localhost:5173",
     "https://www.memehome.io",
+    "http://localhost:4173/"
+
 ];
 app.use(cors({
     origin: (origin, callback) => {
