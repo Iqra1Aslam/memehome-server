@@ -55,7 +55,7 @@ app.use("/user", user_1.default);
 app.get("/", (req, res) => {
     const origin = req.headers.origin;
     console.log("Request received from origin:", origin);
-    res.send("Hello from backend with Ably!");
+    res.send("Hello from backend with abbly");
   });
   
 // Start server
